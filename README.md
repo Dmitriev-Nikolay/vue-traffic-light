@@ -1,4 +1,4 @@
-# project
+# vue-traffic-light
 
 ## Project setup
 ```
