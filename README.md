@@ -5,7 +5,7 @@
 clone a repo:
 https://github.com/Dmitriev-Nikolay/vue-traffic-light.git
 
-and cd to **vue-traffic-light**
+and cd to /vue-traffic-light/
 ```
 
 ## Project setup
