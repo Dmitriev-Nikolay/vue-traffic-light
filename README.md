@@ -1,5 +1,11 @@
 # vue-traffic-light
 
+## Project download
+```
+clone repo and cd to vue-traffic-light
+https://github.com/Dmitriev-Nikolay/vue-traffic-light.git
+```
+
 ## Project setup
 ```
 npm install
