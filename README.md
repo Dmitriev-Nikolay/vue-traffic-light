@@ -2,8 +2,10 @@
 
 ## Project download
 ```
-clone a repo and cd to vue-traffic-light
+clone a repo:
 https://github.com/Dmitriev-Nikolay/vue-traffic-light.git
+
+and cd to `vue-traffic-light`
 ```
 
 ## Project setup
