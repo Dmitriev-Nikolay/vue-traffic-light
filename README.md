@@ -2,7 +2,7 @@
 
 ## Project download
 ```
-clone repo and cd to vue-traffic-light
+clone a repo and cd to vue-traffic-light
 https://github.com/Dmitriev-Nikolay/vue-traffic-light.git
 ```
 
