@@ -32,31 +32,29 @@ export default {
 }
 .circle_red {
   background-color: red;
-  color: white;
-  opacity: 0.4;
+  color: rgb(8, 3, 248);
+  opacity: 0.3;
 }
 .circle_yellow {
   background-color: yellow;
-  color: black;
-  opacity: 0.4;
+  color: rgb(8, 3, 248);
+  opacity: 0.3;
 }
 .circle_green {
   background-color: rgb(6, 255, 6);
-  color: white;
-  opacity: 0.4;
+  color: rgb(8, 3, 248);
+  opacity: 0.3;
 }
 .circle_on {
   opacity: 1;
 }
 .circle__counter {
-  width: 30px;
-  height: 30px;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
   align-self: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Georgia, Serif;
 }
 .circle_blink {
-  animation: blink-animation 0.4s steps(10, start) infinite;
+  animation: blink-animation 0.3s steps(10, start) infinite;
 }
 </style>

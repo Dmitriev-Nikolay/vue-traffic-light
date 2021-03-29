@@ -1,5 +1,6 @@
 <template>
   <div class="main">
+    <h1 class="text">Test task by Dmitriev Nikolay</h1>
     <div class="case">
       <CircleLight
         class="circle"
@@ -20,17 +21,6 @@
         :seconds="counter"
       />
     </div>
-    <!-- <div class="case_btn">
-      <button class="btn_run" @click="$router.push({ name: 'red' })">
-        run red
-      </button>
-      <button class="btn_run" @click="$router.push({ name: 'yellow' })">
-        run yellow
-      </button>
-      <button class="btn_run" @click="$router.push({ name: 'green' })">
-        run green
-      </button>
-    </div> -->
   </div>
 </template>
 
@@ -56,22 +46,25 @@ export default {
     },
   },
   watch: {
-    $route(to, from) {
+    $route() {
+      console.log(this.getNextColor);
+      console.log(this.$store.state.currentColorIndex);
+      console.log(this.time);
       this.setTimer();
     },
   },
   mounted() {
+    console.log(this.getNextColor);
+    console.log(this.$store.state.currentColorIndex);
+    console.log(this.time);
     this.setTimer();
   },
   methods: {
     setTimer() {
-      console.log(this.$store.state.currentColorIndex);
       const timer = this.time;
-
       setTimeout(() => {
         this.$router.push(this.getNextColor);
       }, timer);
-
       this.counter = timer / 1000;
       if (this.interval) clearInterval(this.interval);
       this.interval = setInterval(() => {
@@ -95,16 +88,10 @@ export default {
   align-items: center;
   flex-direction: column;
 }
-/* .case_btn {
-  margin: 10px;
+.text {
+  font-family: "Times New Roman", Georgia, Serif;
+  padding-bottom: 10px;
 }
-.btn_run {
-  height: 100px;
-  width: 100px;
-  font-size: 1.5em;
-  word-spacing: 60px;
-  cursor: pointer;
-} */
 .case {
   display: flex;
   flex-direction: column;
