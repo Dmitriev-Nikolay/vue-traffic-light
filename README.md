@@ -1,5 +1,13 @@
 # vue-traffic-light
 
+## Project download
+```
+clone a repo:
+https://github.com/Dmitriev-Nikolay/vue-traffic-light.git
+
+and cd to /vue-traffic-light/
+```
+
 ## Project setup
 ```
 npm install
@@ -19,6 +27,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
